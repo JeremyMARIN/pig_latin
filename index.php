@@ -21,9 +21,9 @@ include("include/helpers.php");
 				if (isset($_POST["input"]) && isset($_POST["echo"])) {
 					$input = $_POST["input"];
 					if ($_POST["echo"] == "on")
-						echo "<h2>English echo:</h2><textarea class=\"full-width\" readonly>" . $input . "</textarea><hr />";
+						echo "<h2>English echo:</h2><textarea class=\"full-width radius\" readonly>" . $input . "</textarea><hr />";
 
-					echo "<h2>Pig Latin translation:</h2><textarea class=\"full-width\" readonly>" . processText($input) . "</textarea>";
+					echo "<h2>Pig Latin translation:</h2><textarea class=\"full-width radius\" readonly>" . processText($input) . "</textarea>";
 				} else
 					echo "Invalid request...";
 				?>
