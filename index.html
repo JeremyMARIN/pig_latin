@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Pig Latin</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header id="header">
+			<div class="panel round">
+				<h2 class="text-centered">Enter your English text in the form</h2>
+			</div>
+		</header>
+
+		<div id="content">
+			<div class="panel round">
+				<form action="index.php" method="post">
+					<div class="form-container">
+						<textarea class="full-width" name="input" placeholder="Type here your text to translate into Pig Latin." class="radius"></textarea>
+					</div>
+
+					<div class="text-centered">
+						<div class="submit-container">
+							<button class="round" type="submit">Submit</button>
+						</div>
+						<div class="radio-container">
+							<fieldset class="radio-container">
+								<legend>Echo the input?</legend>
+								<input id="on" type="radio" name="echo" value="on" checked="checked"/><label for="on">Yes</label>
+								<input id="off" type="radio" name="echo" value="off" /><label for="off">No</label>
+							</fieldset>
+						</div>
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

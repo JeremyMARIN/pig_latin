@@ -1,0 +1,102 @@
+h2 {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 8px 0;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+form {
+	line-height: 2em;
+}
+
+button {
+	font-size: 1.2em;
+	padding: 0 16px;
+}
+
+fieldset {
+	margin: auto;
+}
+
+textarea {
+	height: 30%;
+}
+
+a:link {
+	color: #f0bb00;
+}
+
+a:visited {
+	color: #3ea2dc;
+}
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: 8px;
+	padding: 16px;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.round {
+	border-radius: 25px;
+}
+
+.radius {
+	border-radius: 10px;
+}
+
+.form-container {
+	padding: 4%;
+}
+.radio-container {
+	width: 50%;
+	overflow: hidden;
+}
+.submit-container {
+	width: 50%;
+	float: right;
+}
+.submit-container button {
+	margin-top: 30px;
+}
+
+
+#header, #content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#content {
+	position: relative;
+	top: 40%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
